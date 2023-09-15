@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AffichageComponent } from './facture/affichage/affichage.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'facture', component: AffichageComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
